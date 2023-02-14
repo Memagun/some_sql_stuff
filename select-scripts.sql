@@ -42,8 +42,15 @@ select
 from
 	track_list
 where 
-	track_name like '%%My%%'
+	track_name ilike '%%my%%' or track_name ilike '%%мой%%';
 
 	
 --------------------------------------------------------------------
 
+select 
+	track_name,
+	track_duration
+from
+	track_list 
+where 
+	track_duration >= '03:30:00';

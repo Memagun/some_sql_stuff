@@ -30,7 +30,8 @@ create table if not exists author__album (
 create table if not exists track_list (
 	id SERIAL PRIMARY KEY,
 	track_name TEXT not null,
-	track_duration time not null
+	track_duration time not null,
+	albumid integer not null references album_lists(id)
 );
 
 create table if not exists digest_list (
@@ -44,6 +45,3 @@ create table if not exists track_and_diges (
 	track_list_id integer references track_list(id),
 	digest_list_id integer references digest_list(id)
 );
-
-
-
