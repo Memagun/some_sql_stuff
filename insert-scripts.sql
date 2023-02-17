@@ -44,26 +44,26 @@ select * from album_lists;
 
 insert into track_list(track_name, track_duration, albumid)
 values
- ('While My Guitar Gently Weeps', '4:45', '1'), 
- ('Honey Pie', '2:25', '2'), 
- ('Across The Universe', '3:48', '2'), 
- ('Trouble', '4:31', '4'),
- ('Fix You', '4:54', '5'), 
- ('Kung Fu Girls', '3:47', '6'), 
- ('Overnight', '4:20', '7'), 
- ('Fragments of Time', '4:39', '8'), 
- ('One More Time', '5:21', '9'), 
- ('Galvanize', '6:33', '10'), 
- ('Hey Boy Hey Girl', '4:51', '11'), 
- ('Rock Me', '3:05', '12'), 
- ('Voulez-Vous', '5:09', '13'), 
- ('Andante spiccato', '3:03', '14'), 
- ('Genre', '3:08', '15'), 
- ('Adagio in E major', '14:10', '16'), 
- ('Raining Blood', '4:58', '17'), 
- ('South of Heaven', '4:58', '18'), 
- ('Master of Puppets', '8:35', '18'), 
- ('For Whom The Bell Tolls', '5:10', '18');
+ ('While My Guitar Gently Weeps', '00:04:45', '1'), 
+ ('Honey Pie', '00:02:25', '2'), 
+ ('Across The Universe', '00:03:48', '2'), 
+ ('Trouble', '00:04:31', '4'),
+ ('Fix You', '00:04:54', '5'), 
+ ('Kung Fu Girls', '00:03:47', '6'), 
+ ('Overnight', '00:04:20', '7'), 
+ ('Fragments of Time', '00:04:39', '8'), 
+ ('One More Time', '00:05:21', '9'), 
+ ('Galvanize', '00:06:33', '10'), 
+ ('Hey Boy Hey Girl', '00:4:51', '11'), 
+ ('Rock Me', '00:3:05', '12'), 
+ ('Voulez-Vous', '00:5:09', '13'), 
+ ('Andante spiccato', '00:3:03', '14'), 
+ ('Genre', '00:03:08', '15'), 
+ ('Adagio in E major', '00:14:10', '16'), 
+ ('Raining Blood', '00:04:58', '17'), 
+ ('South of Heaven', '00:04:58', '18'), 
+ ('Master of Puppets', '00:08:35', '18'), 
+ ('For Whom The Bell Tolls', '00:05:10', '18');
 
 select * from track_list;
 

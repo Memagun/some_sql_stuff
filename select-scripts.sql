@@ -42,7 +42,7 @@ select
 from
 	track_list
 where 
-	track_name ilike '%%my%%' or track_name ilike '%%мой%%';
+	string_to_array(lower(track_name), ' ') && array['my', 'мой'];
 
 	
 --------------------------------------------------------------------
@@ -53,4 +53,4 @@ select
 from
 	track_list 
 where 
-	track_duration >= '03:30:00';
+	track_duration >= '00:03:30';
